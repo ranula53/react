@@ -1,0 +1,34 @@
+.custom-navbar {
+    background-color:#660000 !important; /* Dark Gray */
+  }
+  
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color:rgb(245, 165, 165)!important; /* Yellow on hover */
+  }
+  
+  .navbar-brand {
+    font-size: 28px !important; /* Change the font size */
+    font-weight: bold; /* Optional: Make it bold */
+    color: white !important; /* Optional: Change text color */
+    font-style: italic;
+  }
+
+.custom-dropdown{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+.levelOne{
+  background-color: #d05757;
+  color: rgb(0, 0, 0);
+}
+
+.fsize {
+  font-size: 17px;
+  font-weight: 500;
+}
