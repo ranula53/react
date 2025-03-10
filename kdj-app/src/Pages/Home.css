@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-right: 80px;
+    gap: 80px;
+}
+.card {
+    width: 355px;
+    height: 320px; /* Default height */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      height: 300px; /* Smaller height for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      height: 200px; /* Smaller height for mobile */
+    }
+  }

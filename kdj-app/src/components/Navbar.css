@@ -8,7 +8,10 @@
   }
   
   .custom-navbar .nav-link:hover {
-    color:rgb(245, 165, 165)!important; /* Yellow on hover */
+    color:rgb(243, 144, 144)!important; /* Yellow on hover */
+  }
+  .custom-navbar{
+    width: 100%;
   }
   
   .navbar-brand {
@@ -24,11 +27,22 @@
     font-weight: 500;
 }
 .levelOne{
-  background-color: #d05757;
+  
   color: rgb(0, 0, 0);
+}
+.levelOne :hover{
+  background-color: #d16b6b;
+
 }
 
 .fsize {
   font-size: 17px;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    flex-direction: column;
+    text-align: center;
+  }
 }

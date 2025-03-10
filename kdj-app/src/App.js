@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import './App.css';
 import Navbar from './components/Navbar'
+import LoginForm from './Pages/LoginForm';
 
 
 
@@ -16,12 +17,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path = "/Contact" element={<Contact/>} />
+        <Route path = "/LoginForm" element={<LoginForm/>} />
       </Routes>
     </Router>
     
-    
-
-
 
 
 

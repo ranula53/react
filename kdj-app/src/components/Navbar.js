@@ -31,9 +31,9 @@ export default function navbar() {
           </Nav>
           <Nav>
           <Nav.Link as={Link} to="/about" className='fsize'>About</Nav.Link>
-            <Nav.Link href="#deets" className='fsize'>Lecture Login</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes" className='fsize'>
-              Student Login
+            <Nav.Link as= {Link} to = "/LoginForm" className='fsize'>Reviews</Nav.Link>
+            <Nav.Link as= {Link} to = "/LoginForm" className='fsize'>
+              Login
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
